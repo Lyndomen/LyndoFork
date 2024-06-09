@@ -32,3 +32,101 @@
   - type: StealCondition
     stealGroup: WeaponEnergyGunMultiphase
     owner: job-name-hos
+
+    #DeltaV - RP Objectives
+- type: entity
+  noSpawn: true
+  parent: [BaseTraitorObjective, BaseSurviveObjective]
+  id: PropagandaObjective
+  name: Recruit new members!
+  description: The Syndicate is in need of sponsors and new members. Recruit crew, graffiti anti-NanoTrasen propaganda, anything. Let the misdeeds of Nanotrasen be known!
+  components:
+  - type: Objective
+    difficulty: 1
+    icon:
+      sprite: Structures/Wallmounts/posters.rsi
+      state: poster60_contraband
+
+- type: entity
+  noSpawn: true
+  parent: [BaseTraitorObjective, BaseSurviveObjective]
+  id: TrashObjective
+  name: Trash the place!
+  description: Trash, pollution, and spills have always followed in your wake. Ensure that the station is a health code violation by the time you leave.
+  components:
+  - type: Objective
+    difficulty: 1
+    icon:
+      sprite: Objects/Storage/boxes.rsi
+      state: trashbag
+
+- type: entity
+  noSpawn: true
+  parent: [BaseTraitorObjective, BaseSurviveObjective]
+  id: CameraObjective
+  name: Remote Destruction
+  description: What is that buzzing in the back of your head...? Are they watching you? Take out as many cameras and radio equipment as possible- they must be on to your plans!
+  components:
+  - type: Objective
+    difficulty: 1
+    icon:
+      sprite: Structures/Machines/computers.rsi
+      state: television
+
+- type: entity
+  noSpawn: true
+  parent: [BaseTraitorObjective, BaseSurviveObjective]
+  id: DonkObjective
+  name: Donk Sales Representative
+  description: Donk Co. is the latest member of the Syndicate, and one possibly hit hardest by Nanotrasen and their greed. Make sure they meet their quota, get everyone eating their amazing product!
+  components:
+  - type: Objective
+    difficulty: 1
+    icon:
+      sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+      state: box
+
+- type: entity
+  noSpawn: true
+  parent: [BaseTraitorObjective, BaseSurviveObjective]
+  id: SpannerObjective
+  name: Spanner in the Works
+  description: A future operation requires that there be a clear path from space to the vault. Demolish everything from the void to your objective.
+  components:
+  - type: Objective
+    difficulty: 1
+    icon:
+      sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+      state: box
+  - type: YesJobRequirement
+    job: StationEngineer
+
+- type: entity
+  noSpawn: true
+  parent: [BaseTraitorObjective, BaseSurviveObjective]
+  id: FireFighterObjective
+  name: Fire Fighter
+  description: You've had it. Light a department on fire, and damn the consequences. Gas and plasma trail behind your every step.
+  components:
+  - type: Objective
+    difficulty: 1
+    icon:
+      sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+      state: box
+  - type: YesJobRequirement
+    job: AtmosphericTechnician
+
+- type: entity
+  noSpawn: true
+  parent: [BaseTraitorObjective, BaseSurviveObjective]
+  id: TrainingWheelsObjective
+  name: Training Wheels
+  description: Bumble around and cause mechanical mayhem as you "fix" the various machines across the station.
+  components:
+  - type: Objective
+    difficulty: 1
+    icon:
+      sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+      state: box
+  - type: YesJobRequirement
+    job: TechnicalAssistant

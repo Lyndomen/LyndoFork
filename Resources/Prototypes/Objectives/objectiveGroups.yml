@@ -2,10 +2,12 @@
 - type: weightedRandom
   id: TraitorObjectiveGroups
   weights:
-    TraitorObjectiveGroupSteal: 1
-    TraitorObjectiveGroupKill: 1
-    TraitorObjectiveGroupState: 1 #As in, something about your character. Alive, dead, arrested, gained an ability...
-    TraitorObjectiveGroupSocial: 1 #Involves helping/harming others without killing them or stealing their stuff
+    TraitorObjectiveGroupSteal: 0
+    TraitorObjectiveGroupKill: 0
+    TraitorObjectiveGroupState: 0 #As in, something about your character. Alive, dead, arrested, gained an ability...
+    TraitorObjectiveGroupSocial: 0 #Involves helping/harming others without killing them or stealing their stuff
+    TraitorObjectiveGroupRP: 1 #Delta-V Custom RP Objectives, see DeltaV\Objectives\traitor.yml
+
 
 - type: weightedRandom
   id: TraitorObjectiveGroupSteal
@@ -49,6 +51,16 @@
     RandomTraitorProgressObjective: 1
     RaiseGlimmerObjective: 0.5 # Nyanotrasen - Raise glimmer to a target amount, see Resources/Prototypes/Nyanotrasen/Objectives/traitor.yml
 
+- type: weightedRandom
+  id: TraitorObjectiveGroupRP
+  weights:
+    PropagandaObjective: 1
+    TrashObjective: 0
+    CameraObjective: 0
+    DonkObjective: 0
+    SpannerObjective: 1
+    FireFighterObjective: 1
+    TrainingWheelsObjective: 1
 
 #Thief groups
 - type: weightedRandom
