@@ -1,28 +1,28 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System.Text.Json;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Content.Server.Database.Migrations.Sqlite
+namespace Content.Server.Database.Migrations.Postgres
 {
     /// <inheritdoc />
-    public partial class Height : Migration
+    public partial class CDCharacterRecords : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<float>(
-                name: "height",
+            migrationBuilder.AddColumn<JsonDocument>(
+                name: "cd_character_records",
                 table: "profile",
-                type: "REAL",
-                nullable: false,
-                defaultValue: 1f);
+                type: "jsonb",
+                nullable: true);
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "height",
+                name: "cd_character_records",
                 table: "profile");
         }
     }
