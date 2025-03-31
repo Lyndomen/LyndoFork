@@ -223,8 +223,8 @@
   id: Wizard
   alias:
   - wizard
-  name: wizard-title
-  description: wizard-description
+  name: deltav-wizard-title # DeltaV
+  description: deltav-wizard-description # DeltaV
   showInVote: false
   rules:
   - Wizard

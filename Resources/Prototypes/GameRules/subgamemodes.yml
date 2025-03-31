@@ -38,7 +38,7 @@
   id: SubWizard
   components:
   - type: AntagSelection
-    agentName: wizard-round-end-name
+    agentName: deltav-wizard-round-end-name # DeltaV
     selectionTime: PrePlayerSpawn
     definitions:
     - prefRoles: [ Wizard ]
@@ -48,8 +48,8 @@
       roleLoadout:
       - RoleSurvivalExtended
       briefing:
-        text: wizard-role-greeting
-        color: Turquoise
+        text: deltav-wizard-role-greeting # DeltaV
+        color: Purple # DeltaV
         # TODO: Need Wizard Start sound
         #sound: "/Audio/Ambience/Antag/wizard_start.ogg"
       startingGear: WizardBlueGear

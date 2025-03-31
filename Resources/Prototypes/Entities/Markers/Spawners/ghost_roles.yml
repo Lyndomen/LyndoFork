@@ -248,8 +248,8 @@
   suffix: wizard
   components:
   - type: GhostRole
-    name: ghost-role-information-wizard-name
-    description: ghost-role-information-wizard-desc
+    name: deltav-ghost-role-information-wizard-name
+    description: deltav-ghost-role-information-wizard-desc
     mindRoles:
     - MindRoleGhostRoleSoloAntagonist
     raffle:
