@@ -156,9 +156,9 @@
     - id: Bola
       prob: 0.01
       orGroup: Weapons
-    - id: ToySword
-      prob: 0.01
-      orGroup: Weapons
+    # - id: ToySword # DeltaV
+    #  prob: 0.01
+    #  orGroup: Weapons
     - id: Shovel
       prob: 0.01
       orGroup: Weapons
