@@ -125,8 +125,8 @@
     - PlushieSharkBlue
     - PlushieVox
     - PlushieXeno
-    - PlushieMort # DeltaV Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
-    - PlushieIPC # DeltaV Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
+    - PlushieMort # DeltaV - Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
+    - PlushieIPC # DeltaV - Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
     - PlasticBanana
     - RevolverCapGun
     - SnapPopBox
@@ -149,12 +149,12 @@
     - ToySeraph
     - ToyDurand
     - ToySkeleton
-    - ToySword
+    # - ToySword # DeltaV
     - ToyAmongPequeno
     - ToyRubberDuck
     - ToyHammer
-    - ToyRenault # DeltaV Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
-    - ToySiobhan # DeltaV Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
+    - ToyRenault # DeltaV - Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
+    - ToySiobhan # DeltaV - Toy, see Resources/Prototypes/_DV/Entities/Objects/Fun/toys.yml
     - WeaponWaterPistol
     - WhoopieCushion
     - Whistle
