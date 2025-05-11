@@ -165,10 +165,10 @@
 - type: entity
   parent: PassengerIDCard
   id: VisitorIDCardLoadout
-  name: visitor ID card
+  name: corporate visitor ID card
   components:
   - type: IdCard
-    jobTitle: job-title-visitor
+    jobTitle: job-alt-title-corporate-visitor
 
 - type: entity
   parent: PassengerIDCard
@@ -188,11 +188,11 @@
 
 - type: entity
   parent: PassengerIDCard
-  id: StudentIDCard
-  name: student ID card
+  id: InternIDCard
+  name: intern ID card
   components:
   - type: IdCard
-    jobTitle: job-alt-title-student
+    jobTitle: job-alt-title-intern
 
 # Bartender
 
