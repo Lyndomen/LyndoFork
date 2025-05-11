@@ -5,9 +5,9 @@
     id: PassengerPDA
 
 - type: loadout
-  id: VisitorPDA
+  id: CorporateVisitorPDA
   equipment:
-    id: VisitorPDALoadout
+    id: CorporateVisitorPDALoadout
 
 #  Tourists dont visit evil space stations anymore.
 #- type: loadout
@@ -20,11 +20,10 @@
   equipment:
     id: OffDutyCrewPDA
 
-# Students don't visit evil stations. maybe we can rebrand this to like corporate intern or something
-#- type: loadout
-#  id: StudentPDA
-#   equipment:
-#   id: StudentPDA
+- type: loudout
+  id: InternPDA
+  equipment:
+    id: InternPDA
 
 # Jumpsuit
 # Rose Hoodie w/ Skirt
