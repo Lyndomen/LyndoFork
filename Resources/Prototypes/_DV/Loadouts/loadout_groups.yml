@@ -777,10 +777,10 @@
   name: loadout-group-passenger-id-delta
   loadouts:
   - PassengerPDA
-  - VisitorPDA
+  - CorporateVisitorPDA
   # - TouristPDA
   - OffDutyCrewPDA
-  # - StudentPDA
+  - InternPDA
 
 - type: loadoutGroup
   id: BartenderPDADelta
