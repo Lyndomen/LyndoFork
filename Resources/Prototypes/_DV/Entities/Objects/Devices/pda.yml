@@ -269,11 +269,11 @@
 
 # event visitors get externals emergency access, not a good thing for powergaming tiders
 - type: entity
-  parent: VisitorPDA
-  id: VisitorPDALoadout
+  parent: CorporateVisitorPDA
+  id: CorporateVisitorPDALoadout
   components:
   - type: Pda
-    id: VisitorIDCardLoadout
+    id: CorporateVisitorIDCardLoadout
 
 - type: entity
   parent: PassengerPDA
@@ -303,16 +303,16 @@
 
 - type: entity
   parent: PassengerPDA
-  id: StudentPDA
-  name: student PDA
-  description: Whether you came here to study various aspects of space architecture, unfathomably hot burn chambers, psionic activity, or are just on spring break, you're a real space student now.
+  id: InternPDA
+  name: intern PDA
+  description: Whether you came here to study various aspects of space architecture, unfathomably hot burn chambers, psionic activity, or just happy making 2 spesos an hour, you're a real employee now.
   components:
   - type: Pda
-    id: StudentIDCard
+    id: InternIDCard
   - type: Appearance
     appearanceDataInit:
       enum.PdaVisuals.PdaType: !type:String
-        pda-student
+        pda-intern
 
 # Bartender
 
