@@ -18,7 +18,8 @@ job-name-qm = Logistics Officer
 # Alternate titles
 job-alt-title-tourist = Tourist
 job-alt-title-off-duty-crew = Off-Duty Crew
-job-alt-title-student = Student
+job-alt-title-intern = Intern
+job-alt-title-corporate-visitor = Corporate Visitor
 
 job-alt-title-mixologist = Mixologist
 
