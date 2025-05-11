@@ -314,6 +314,18 @@
       enum.PdaVisuals.PdaType: !type:String
         pda-intern
 
+- type: entity
+  parent: VisitorPDA
+  id: CorporateVisitorPDA
+  name: corporate visitor PDA
+  description: NanoTrasen has granted you temporary clearances under contract, negotiate and make it worth your corporations dime.
+  - type: Pda
+    id: CorporateVisitorIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType: !type:String
+        pda-corporate-visitor
+
 # Bartender
 
 - type: entity
