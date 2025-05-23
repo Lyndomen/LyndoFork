@@ -9,8 +9,7 @@
     issuer: deltav-objective-issuer-unknown # DeltaV
   - type: RoleRequirement
     roles:
-      mindRoles:
-      - WizardRole
+    - WizardRole
 
 - type: entity
   parent: [BaseWizardObjective, BaseSurviveObjective]
